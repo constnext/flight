@@ -53,7 +53,89 @@
             </div>
         </nav>
   </header>
+  <main>
+      <!-- Banner -->
+    <section class="banner">
+
+      <div class="banner-options">      
+              <form class="flight-options">
+                <div class="flight-option">
+                 <label>
+                   <input type="radio" name="flightType" value="one-way" id="oneWay" checked>
+                   One Way
+                 </label>
+                </div>
+                <div class="flight-option">
+                 <label>
+                   <input type="radio" name="flightType" value="return" id="return">
+                   Return
+                 </label>
+                </div>
+                <div class="flight-option">
+                 <label>
+                   <input type="radio" name="flightType" value="multi-city" id="multiCity">
+                   Multi-City
+                 </label>
+                </div>
+               </form>
+             </div>  
+     
+  <div class="booking-banner">
+
+    <div class="booking-form">
+          
+          
+      <div class="form-group">
+        <label for="destination">Departure</label>
+        <input type="text" id="departure" placeholder="From">
+      </div>
+      <div class="form-group">
+        <label for="destination">Destination</label>
+        <input type="text" id="destination" placeholder="To">
+      </div>
+      
+      <div class="form-group">
+        <label for="checkin">Check-in</label>
+        <input type="date" id="checkin">
+      </div>
+      <div class="form-group">
+        <label for="checkout">Check-out</label>
+        <input type="date" id="checkout">
+      </div>
+      <div class="form-group">
+        <label for="Adults">Adults</label>
+        <input type="number" min="1" id="Adults" placeholder="Adults">
+      </div>
+      <button class="search-btn">Search</button>
+    </div>
+    
+  </div>
+</section> 
+
+
+  <!-- Travel Tips Section -->
+    <section class="travel-tips">
+        <h2>Latest Travel Tips</h2>
+        <div class="tips-grid">
+            <div class="tip">
+                <h3>Packing Like a Pro</h3>
+                <p>Maximize your luggage space with these insider packing tips for your next trip.</p>
+            </div>
+            <div class="tip">
+                <h3>Travel on a Budget</h3>
+                <p>Discover how to stretch your travel budget while still enjoying top-notch experiences.</p>
+
+            </div>
+            <div class="tip">
+                <h3>Travel Insurance Essentials</h3>
+                <p>Ensure peace of mind by choosing the right travel insurance for your journey.</p>
+            </div>
   
+        </div>
+        </div>
+    </section>
+  
+  </main>
   <script src="main.js"></script>
 </body>
 </html>
